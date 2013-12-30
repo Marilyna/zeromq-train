@@ -19,8 +19,6 @@ def send_data(filename, socket):
             for line in log_file:
                 socket.send(line)
                 sent += 1
-                # if sent % 96 == 0:
-                #     time.sleep(.01)
     print "Total sent:", sent
 
 
