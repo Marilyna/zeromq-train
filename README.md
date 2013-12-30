@@ -17,18 +17,20 @@ Experiments
 
 Received messages without errors (all sent messages were received)
 
-time     messages  messages/s
-1 s       10064       10064
-5 s       48800       9760
-10 s      82908       8291
+| Time | Messages   | Messages/s |
+| ---- | ---------- | ---------- |
+| 1 s  | 10064      | 10064     |
+| 5 s  | 48800      | 9760      |
+| 10 s | 82908      | 8291      |
 
 
 Maximum amount of sent and received messages
 
-time    sent       server1     server2          server1/s   server2/s
-1 s     262656      12533       54007           12533       54007
-5 s     1319544     28501       262018          5700        52404
-10 s    2669350     55510       495501          5551        49550
+| Time | Sent    | Server1 | Server2 | Server1/s | Server2/s |
+| ---- | ------- | ------- | ------- | --------- | --------- |
+| 1 s  | 262656  | 12533   | 54007   | 12533     | 54007     |
+| 5 s  | 1319544 | 28501   | 262018  | 5700      | 52404     |
+| 10 s | 2669350 | 55510   | 495501  | 5551      | 49550     |
 
 
 The longer messages are being sent, the fewer messages per second are received. The amount of received messages depends
