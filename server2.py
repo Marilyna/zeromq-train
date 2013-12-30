@@ -5,7 +5,7 @@ socket = context.socket(zmq.SUB)
 socket.connect("tcp://localhost:5555")
 socket.setsockopt(zmq.SUBSCRIBE, "")
  
-print "Server2 is waiting\n\n"
+print "Server2 is waiting\n"
 received = 0
 try:
     while True:
